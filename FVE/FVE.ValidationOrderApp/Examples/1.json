@@ -1,0 +1,29 @@
+{
+	"orderType": 1,
+	"number": 1,
+	"customer":{
+		"person":{
+			"fullname":"Ivanov Ivan Ivanovich"
+		},
+		"email":""		
+	},
+	"delivery":{
+		"deliveryType":1,
+		"deliveryAddress":{
+			"city":"Москва",
+			"street": "ул. Маяковского"
+		}
+	},
+	"orderItems":[
+		{
+			"bookId":1,
+			"orderItemPrice":{
+				"amount":100,
+				"catalogAmount":100,
+				"bonus":null,
+				"vat":10
+			},
+			"certificates":null
+		}
+	]
+}

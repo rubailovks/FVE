@@ -1,4 +1,5 @@
-﻿using FVE.Domain.Models.OrderModel.OrderItemsModel.OrderItemPriceModel;
+﻿using FVE.Domain.Models.OrderModel.OrderItemsModel.OrderItemCertificateModel;
+using FVE.Domain.Models.OrderModel.OrderItemsModel.OrderItemPriceModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,7 @@ namespace FVE.Domain.Models.OrderModel.OrderItemsModel
         public int BookId { get; set; }
 
         public OrderItemPrice OrderItemPrice { get; set; }
+
+        public IEnumerable<OrderItemCertificate> OrderItemCertificates { get; set; }
     }
 }
