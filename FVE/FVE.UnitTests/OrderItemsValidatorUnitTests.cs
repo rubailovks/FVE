@@ -3,7 +3,6 @@ using FluentValidation.Results;
 using FluentValidation.TestHelper;
 using FVE.Domain.DomainServices;
 using FVE.Domain.Models.OrderModel.OrderItemsModel;
-using FVE.Domain.Validators.OrderValidators;
 using FVE.Domain.Validators.OrderValidators.OrderItemsValidators;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;

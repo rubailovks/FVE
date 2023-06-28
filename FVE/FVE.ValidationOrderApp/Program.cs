@@ -15,6 +15,7 @@ using IHost host = Host.CreateDefaultBuilder(args)
     {
         services.AddSingleton(cts);
         services.AddTransient<IOrderValidationDomainService, OrderValidationDomainService>();
+        //https://docs.fluentvalidation.net/en/latest/di.html
         services.AddValidatorsFromAssemblyContaining<OrderValidator>(ServiceLifetime.Transient);
         services.AddHostedService<OrderValidatorHostedService>();
     })

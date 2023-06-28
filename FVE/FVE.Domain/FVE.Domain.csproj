@@ -14,4 +14,8 @@
     <PackageReference Include="FluentValidation" Version="10.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FVE.Infrastructure\FVE.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

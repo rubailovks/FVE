@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FVE.Infrastructure.Queries
 {
-    public interface IOrderQuery
+    public interface IOrderItemsQueries
     {
         Task<IEnumerable<int>> GetNotExistsItemNumbers(IEnumerable<int> itemNumbers);
     }
